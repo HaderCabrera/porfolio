@@ -15,6 +15,7 @@
     "@react-three/fiber": "^8.17.5",
     "framer-motion": "^11.3.28",
     "maath": "^0.10.8",
+    "porfolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.1",

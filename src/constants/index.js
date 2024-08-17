@@ -4,14 +4,12 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  sql,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
+  spring,
+  java,
+  postgres,
   git,
   figma,
   docker,
@@ -42,21 +40,14 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Mechatronic Engineer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+
 ];
 
 const technologies = [
@@ -73,30 +64,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -105,12 +72,20 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "sql",
+    icon: sql,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "postgres",
+    icon: postgres,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "spring",
+    icon: spring,
   },
 ];
 
