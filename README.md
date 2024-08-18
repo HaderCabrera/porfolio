@@ -10,8 +10,7 @@ Currently, two official plugins are available:
 PALETA DE COLORES: https://www.hostinger.co/tutoriales/paletas-de-colores-para-paginas-web?utm_campaign=Generic-Tutorials-DSA|NT:Se|LO:CO-t2&utm_medium=ppc&gad_source=1&gclid=Cj0KCQjwlIG2BhC4ARIsADBgpVSMDYm-PjK8n1KVXJZxYwyXL_X3isRdphQ0OepqCW8s7IXlXbDkpO8aAivGEALw_wcB
 
 LOGO: https://logo.com/dashboard/your-logo-files
-
-
+  
 npm  install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 
 npm install --legacy-peer-deps -D postcss autoprefixer
@@ -19,3 +18,5 @@ npm install --legacy-peer-deps -D postcss autoprefixer
 npx tailwindcss init -p
 
 npm install --legacy-peer-deps three
+
+EMAILJS: https://dashboard.emailjs.com/
