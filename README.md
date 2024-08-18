@@ -20,3 +20,6 @@ npx tailwindcss init -p
 npm install --legacy-peer-deps three
 
 EMAILJS: https://dashboard.emailjs.com/
+
+MODELO 3D: https://sketchfab.com/3d-models/low-poly-planet-earth-7b1dc4f802a54a6297e7a46888a85f77
+
