@@ -12,7 +12,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full green-pink-gradient p-[5px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -25,7 +25,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt='web-development'
-          className='w-16 h-16 object-contain'
+          className='w-30 h-30 object-contain'
         />
 
         <h3 className='text-secondary text-[20px] font-bold text-center'>
@@ -48,7 +48,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-Driven by my curiosity about how things work internally, I am passionate about backend development. Currently, I am enhancing my skills at Campuslands in software development. With a background in mechatronics engineering, I bring a unique perspective to designing and implementing efficient and scalable software solutions.
+        Driven by my curiosity about how things work internally, 
+        I am passionate about backend development. Currently, 
+        I am enhancing my skills at Campuslands in software development. 
+        With a background in mechatronics engineering, I bring a unique 
+        perspective to designing and implementing efficient and scalable 
+        software solutions.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap justify-center gap-10'>
