@@ -1,5 +1,8 @@
 import React from "react";
 
+
+import { styles } from "../styles";
+
 import { Tilt } from 'react-tilt'
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -27,7 +30,7 @@ const ServiceCard = ({ index, name, icon }) => (
           className='w-10 h-10 object-contain'
         />
 
-        <h3 className='text-secondary text-[15px] font-bold text-center'>
+        <h3 className='text-tertiary text-[15px] font-bold text-center'>
           {name}
         </h3>
       </div>
@@ -37,9 +40,19 @@ const ServiceCard = ({ index, name, icon }) => (
 
 const Tech = () => {
   return (
+
     <div className='mt-20 flex flex-wrap justify-center gap-1'>
+      {/* Contenedor para el título y subtítulo */}
+      <motion.div
+        variants={textVariant()}
+        className='order-first w-full flex flex-col items-center mb-8'
+      >
+        <p className={styles.sectionSubText}>Technologies I Have Mastered So Far</p>
+        <h2 className={styles.sectionHeadText}>Tech.</h2>
+      </motion.div>
+
+      {/* Mapa de tecnologías */}
       {technologies.map((technology, index) => (
-        // <ServiceCard key={technology.name} index={index} {...technology} />
         <ServiceCard key={index} index={index} {...technology} />
       ))}
     </div>

@@ -10,12 +10,12 @@ import {
   postgres,
   git,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  aerolinea,
   campus,
   cocacola,
-  cda
+  cda,
+  jovimotos,
+  serviciospublicos
 } from "../assets";
 
 export const navLinks = [
@@ -122,84 +122,71 @@ const experiences = [
       "Proporcioné capacitación y soporte a usuarios sobre el uso del sistema gestor y las mejores prácticas para el ingreso y manejo de datos.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Jovimotos",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Pagina web que permite registrarse, comprar, solicitar gestion de servicios y generar carro de compra. Fue diseñada para una compraventa de vehiculos de segunda.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Postman",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Html-Css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: jovimotos,
+    source_code_link: "https://github.com/HaderCabrera/webPageJOVIMOTOS",
   },
   {
-    name: "Job IT",
+    name: "2 Teras",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Plataforma web que permite el pago de los servicios publicos alojados en una base de datos ficticia, permite valida es estado de la factura y pagar si es necesario.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Bulma",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: serviciospublicos,
+    source_code_link: "https://github.com/HaderCabrera/project2TERAS",
   },
   {
-    name: "Trip Guide",
+    name: "AerolineaSG",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Sistema capaz de gestionar todos los aspectos de aerolinea, desde la reserva de vuelos hasta el mantenimiento de los aviones y la administración de la tripulación.",
     tags: [
       {
-        name: "nextjs",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Railway",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: aerolinea,
+    source_code_link: "https://github.com/HaderCabrera/aerolineaSG",
   },
 ];
 

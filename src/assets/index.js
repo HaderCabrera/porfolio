@@ -20,9 +20,10 @@ import campus from "./company/campus.png";
 import cocacola from "./company/cocacola.svg";
 import cda from "./company/cda.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import aerolinea from "./aerolinea.png";
+import jovimotos from "./jovimotos.png";
+import serviciospublicos from "./serviciospublicos.png";
+
 
 export {
   logo,
@@ -36,14 +37,14 @@ export {
   html,
   javascript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  aerolinea,
   sql,
   postgres,
   java,
   spring,
   campus,
   cocacola,
-  cda
+  cda,
+  jovimotos,
+  serviciospublicos
 };
