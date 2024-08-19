@@ -9,7 +9,7 @@ const Earth = () => {
 
   return (
     <mesh>
-    <ambientLight intensity={0.5} />
+    <ambientLight intensity={0.8} />
     <primitive object={earth.scene} scale={1.8} position-y={-2} rotation-y={0} />
   </mesh>
   );
