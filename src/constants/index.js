@@ -64,23 +64,23 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "sql",
+    name: "Sql",
     icon: sql,
   },
   {
-    name: "postgres",
+    name: "Postgres",
     icon: postgres,
   },
   {
-    name: "java",
+    name: "Java",
     icon: java,
   },
   {
-    name: "spring",
+    name: "SpringBoot",
     icon: spring,
   },
 ];
