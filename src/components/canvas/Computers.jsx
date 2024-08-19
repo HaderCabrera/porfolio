@@ -5,16 +5,15 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  // const computer = useGLTF("./retrofuturistic_computer/scene.gltf");
   const computer = useGLTF("./retrofuturistic_computer.glb");
 
   return (
     <mesh>
-      <ambientLight intensity={0.7} />
+      <ambientLight intensity={0.9} />
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.04 : 0.07}
-        position={isMobile ? [0, 0, -1.0] : [0, -0.8, -1.5]}
+        position={isMobile ? [0.5, 0, -1.0] : [0, -0.8, -1.5]}
         rotation={[0.1, 1.2, -0.1]}
       />
     </mesh>
@@ -55,7 +54,6 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
