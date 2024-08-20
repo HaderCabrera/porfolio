@@ -12,7 +12,7 @@ const Computers = ({ isMobile }) => {
       <ambientLight intensity={0.9} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.04 : 3}
+        scale={isMobile ? 2 : 3}
         position={isMobile ? [0.7, 0, -1.0] : [0, -0.8, -1.5]}
         rotation={[0.1, 1.2, -0.1]}
       />
